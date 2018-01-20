@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".one.GridViewOne"></activity>
+        <activity android:name=".one.GridViewOne" />
+        <activity android:name=".tow.GridViewTow"></activity>
     </application>
 
 </manifest>
