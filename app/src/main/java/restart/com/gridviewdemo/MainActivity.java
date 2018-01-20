@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import restart.com.gridviewdemo.one.GridViewOne;
+import restart.com.gridviewdemo.three.GridViewThree;
 import restart.com.gridviewdemo.tow.GridViewTow;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         three.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,MainActivity.class));
+                startActivity(new Intent(MainActivity.this,GridViewThree.class));
             }
         });
     }
