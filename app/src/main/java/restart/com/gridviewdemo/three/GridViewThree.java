@@ -85,7 +85,7 @@ public class GridViewThree extends AppCompatActivity {
         private GridViewAdapterThree gridViewAdapterThree;
         private Context context;
 
-        public ImageLoadTask(Context context,GridViewAdapterThree gridViewAdapterThree) {
+        ImageLoadTask(Context context,GridViewAdapterThree gridViewAdapterThree) {
             this.gridViewAdapterThree = gridViewAdapterThree;
             this.context = context;
         }
